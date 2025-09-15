@@ -27,11 +27,11 @@ jobs:
     needs: my_testing
 
     steps:
-      - name: Pront Hello message in Deploy
+      - name: Print Hello message in Deploy
         run : echo "Hello World from Deploy job" 
 
       - name: Printing Deployment package
         run : echo "Deploy package name is ${{env.DEPLOY_PACKAGE_NAME}}"
-        
+
     
  
