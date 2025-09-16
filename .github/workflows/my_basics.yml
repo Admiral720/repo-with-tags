@@ -10,7 +10,7 @@ on:
 
 jobs:
   my_testing:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latesterf
 
     steps:
       - name: Print Hello Message in testing
